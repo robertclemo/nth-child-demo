@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 5px;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+.box:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.box:nth-child(even) {
+    background-color: lightgreen;
+}
